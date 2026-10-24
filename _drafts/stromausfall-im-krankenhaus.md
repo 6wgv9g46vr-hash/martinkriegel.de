@@ -22,11 +22,11 @@ Das dritte Netz sind Batterien. Sie übernehmen ohne spürbare Unterbrechung, in
 
 Diese Stufen sind in einer technischen Norm festgelegt, der DIN VDE 0100-710 [2]. Ein Patient im Operationssaal merkt vom Stromausfall nichts. Auf der normalen Station geht das Licht aus und nach wenigen Sekunden die Notbeleuchtung an.
 
-[Hinweis an Martin Kriegel: Die Stufen 0,5 s, 15 s und die Zuordnung der Verbraucher sind an einer Sekundärquelle geprüft, am Normtext nicht. Bitte gegenlesen.]
+[Hinweis an Martin Kriegel, Stand 24.10.2026: Der Normtext der DIN VDE 0100-710 ist kostenpflichtig und für Claude nicht zugänglich. Geprüft an öffentlichen Quellen: 24 h Betriebsdauer für Krankenhäuser und Umschaltzeit 1 s bis 15 s je nach Gefährdungsbeurteilung (AMEV Ersatzstrom 2024, S. 28). Die 0,5 s für OP-Leuchten und lebenserhaltende Geräte sowie die 15 s für die übrige Sicherheitsversorgung nennen mehrere Fachquellen übereinstimmend, aber keine amtliche. Bitte am Normtext gegenlesen, zum Beispiel über den Normenzugang der TU Berlin.]
 
 ## Wie lange muss der Vorrat reichen?
 
-Ein Aggregat braucht Diesel. In Berlin müssen Krankenhäuser Notstrom für 24 Stunden vorhalten. Das hat die Senatsverwaltung 2023 bestätigt [3]. Das Bundesamt für Bevölkerungsschutz empfiehlt mehr: mindestens 72 Stunden ohne Nachtanken. Begründung: In drei Tagen lässt sich in der Regel Nachschub organisieren [4].
+Ein Aggregat braucht Diesel. In Berlin müssen Krankenhäuser Notstrom für 24 Stunden vorhalten. Das hat die Senatsverwaltung 2023 bestätigt [3]. Eine Empfehlung des Bundes für öffentliche Gebäude nennt dieselbe Zahl [11]. Das Bundesamt für Bevölkerungsschutz empfiehlt mindestens 72 Stunden ohne Nachtanken, weil sich in drei Tagen meist Nachschub organisieren lässt [4].
 
 <figure>
 <img src="/assets/img/stromausfall-zeitstrahl.svg" alt="Zeitstrahl nach einem Stromausfall: Batterie nach 0,5 Sekunden, Aggregat nach 15 Sekunden, Vorrat 24 Stunden Pflicht in Berlin, 72 Stunden Empfehlung des BBK, tatsächliche Ausfälle in Köpenick 2019 und im Berliner Südwesten 2026">
@@ -45,13 +45,13 @@ Das Aggregat war das kleinste Problem. Die Fernwärme fiel aus, die Gebäude kü
 
 Am 3. Januar 2026 legte ein Brandanschlag auf eine Kabelbrücke am Teltowkanal den Strom in Nikolassee, Zehlendorf, Wannsee und Lichterfelde lahm. 45.000 Haushalte und 2.200 Betriebe waren betroffen, die letzten rund viereinhalb Tage lang [7, 9]. Berlin rief erstmals eine Großschadenslage aus.
 
-Vier größere Kliniken liefen mit Notstrom, darunter das Helios Klinikum Emil von Behring und das Krankenhaus Waldfriede. Nach etwa einem Tag waren sie wieder am Netz. Eine Räumung war nicht nötig. Die Bundeswehr lieferte Diesel, das THW stellte Aggregate [6]. Auch hier fiel die Fernwärme aus, weil ihre Pumpen Strom brauchen [7]. Für die 74 Pflege- und Seniorenheime im Gebiet lieferte die Bundeswehr Diesel und Personal für Aggregate [6, 8].
+Vier größere Kliniken liefen mit Notstrom, darunter das Helios Klinikum Emil von Behring und das Krankenhaus Waldfriede. Nach etwa einem Tag waren sie wieder am Netz. Eine Räumung war nicht nötig. Die Bundeswehr lieferte Diesel, das THW stellte Aggregate [6]. Auch hier fiel die Fernwärme aus, weil ihre Pumpen Strom brauchen [7]. Für die 74 Pflegeheime im Gebiet lieferte die Bundeswehr Diesel und Personal [6, 8].
 
 Ein dritter Fall passt dazu. An der Charité fiel im Mai 2023 der Strom aus. Das Aggregat war voll funktionsfähig. Ein Kurzschluss an der Sammelschiene verhinderte, dass es einspeisen konnte [3].
 
 ## Wie gut sind die Anlagen in Schuss?
 
-Der TÜV prüft Notstromanlagen in Sonderbauten regelmäßig, darunter Krankenhäuser, Hochhäuser und Einkaufszentren. 2025 hatten 35 Prozent der 4.344 geprüften Sicherheitsstromversorgungen wesentliche Mängel. Nur 18 Prozent waren mängelfrei. Ein Jahr zuvor lag der Anteil mit wesentlichen Mängeln bei 30 Prozent. Typische Befunde: Aggregate, die beim Test nicht anspringen, und Kraftstoff, der zu lange gelagert wurde. Bei Lüftungsanlagen waren es in derselben Prüfung 44 Prozent [10]. Die Zahlen gelten für alle Sonderbauten.
+Der TÜV prüft Notstromanlagen in Sonderbauten regelmäßig, darunter Krankenhäuser und Hochhäuser. 2025 hatten 35 Prozent der 4.344 geprüften Sicherheitsstromversorgungen wesentliche Mängel. Nur 18 Prozent waren mängelfrei. Ein Jahr zuvor lag der Anteil mit wesentlichen Mängeln bei 30 Prozent. Typische Befunde: Aggregate, die beim Test nicht anspringen, und Kraftstoff, der zu lange gelagert wurde. Bei Lüftungsanlagen waren es in derselben Prüfung 44 Prozent [10]. Die Zahlen gelten für alle Sonderbauten.
 
 ## Was die Kette zusammenhält
 
@@ -78,4 +78,5 @@ Die Regeln für die ersten Sekunden sind gut und bewährt. Die Lücke liegt bei 
 <li><a href="https://blogs.fu-berlin.de/disasterresearchblog/archive/581">Katastrophenforschungsstelle der FU Berlin: Der Berliner Stromausfall im Januar 2026</a>, 16. Januar 2026.</li>
 <li><a href="https://www.stromnetz.berlin/en/for-berlin/steglitz-zehlendorf/">Stromnetz Berlin: Steglitz-Zehlendorf, aktueller Stand</a>, Chronik der Störung vom 3. bis 7. Januar 2026.</li>
 <li><a href="https://www.tuev-verband.de/fileadmin/user_upload/Content_local/Veroeffentlichungen/2026_TUEV-Verband_Baurechtsreport.pdf">TÜV-Verband: Baurechtsreport 2026</a>, Juni 2026, S. 14 und S. 32 (Sicherheitsstromversorgung), S. 26 (Lüftungsanlagen).</li>
+<li><a href="https://www.amev-online.de/AMEVInhalt/Planen/Elektrotechnik/Ersatzstrom/2024_Empfehlung_Ersatzstrom.pdf">AMEV: Ersatzstrom. Hinweise für Planung, Bau und Betrieb von Sicherheits-, Ersatz- und Notstromversorgungsanlagen in öffentlichen Gebäuden</a>, Empfehlung Nr. 164, Stand 25. April 2024, S. 28 (Tabelle 1: Krankenhäuser, Bemessungsbetriebsdauer 24 h).</li>
 </ol>
