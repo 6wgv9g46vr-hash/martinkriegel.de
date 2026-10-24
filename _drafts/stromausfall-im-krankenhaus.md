@@ -2,36 +2,75 @@
 title: "Was passiert im Krankenhaus bei einem Stromausfall?"
 date: 2026-10-24
 themenfeld: Versorgungssicherheit
-antwort: "[Platzhalter. Die Antwort im ersten Absatz entsteht nach der Quellenprüfung und nach Stichpunkten von Martin Kriegel.]"
-grafik: /assets/img/platzhalter-grafik.svg
-grafik_alt: "Platzhalter für die Grafik: Zeitstrahl nach dem Stromausfall"
-description: "[Platzhalter für die Kurzbeschreibung in Suchmaschinen.]"
+antwort: "Das Licht flackert, dann springt das Notstromaggregat an. Operationssäle und Intensivstationen merken davon fast nichts, weil Batterien die Sekunden dazwischen überbrücken. Das Krankenhaus hält einen Stromausfall aus. Aber nur, wenn die gesamte Kette funktioniert, vom Aggregat bis zur Lüftung."
+grafik: /assets/img/stromausfall-zeitstrahl.svg
+grafik_alt: "Zeitstrahl nach einem Stromausfall: Batterie nach 0,5 Sekunden, Aggregat nach 15 Sekunden, Vorrat 24 Stunden Pflicht in Berlin, 72 Stunden Empfehlung des BBK, tatsächliche Ausfälle in Köpenick 2019 und im Berliner Südwesten 2026"
+description: "Notstrom im Krankenhaus: Was in den ersten Sekunden passiert, wie lange der Vorrat reichen muss und was zwei Stromausfälle in Berlin gezeigt haben."
 ---
 
-[Platzhalter. Begründung der Kernaussage in Alltagssprache. 500 bis 800 Wörter.]
+## Wie oft fällt der Strom überhaupt aus?
 
-## Zwischenüberschrift
+Selten. Im Jahr 2024 war jeder Stromkunde in Deutschland im Durchschnitt 11,7 Minuten ohne Strom. Im Jahr davor waren es 12,8 Minuten. Das meldet die Bundesnetzagentur, die alle ungeplanten Unterbrechungen zählt [1]. Für die meisten von uns ist ein Stromausfall ein Ärgernis. Für ein Krankenhaus ist er eine Frage von Leben und Tod. Deshalb muss jedes Krankenhaus so gebaut sein, als käme der Ausfall morgen.
 
-[Platzhalter. Fachbegriffe werden beim ersten Auftreten erklärt.]
+## Die ersten 15 Sekunden
+
+Ein Krankenhaus hat drei Stromnetze. Das erste ist das normale Netz. Daran hängen Büros, Flure, Küche und Aufzüge. Fällt der Strom aus, bleibt hier erst einmal alles dunkel.
+
+Das zweite Netz ist die Sicherheitsversorgung. Sie wird von einem Notstromaggregat gespeist, meist einem Dieselmotor mit Generator. Das Aggregat startet automatisch und muss innerhalb von 15 Sekunden laufen. Daran hängen Intensivstation, Operationssäle, Notbeleuchtung und medizinische Geräte.
+
+Das dritte Netz sind Batterien. Sie übernehmen ohne spürbare Unterbrechung, innerhalb einer halben Sekunde. Daran hängen OP-Leuchten und Geräte, die keine Sekunde ausfallen dürfen, etwa Beatmungsgeräte.
+
+Diese Stufen sind in einer technischen Norm festgelegt, der DIN VDE 0100-710 [2]. Ein Patient im Operationssaal merkt vom Stromausfall nichts. Ein Patient auf der normalen Station merkt, dass das Licht ausgeht und nach wenigen Sekunden die Notbeleuchtung angeht.
+
+[Hinweis an Martin Kriegel: Die Stufen 0,5 s, 15 s und die Zuordnung der Verbraucher sind an einer Sekundärquelle geprüft, am Normtext nicht. Bitte gegenlesen.]
+
+## Wie lange muss der Vorrat reichen?
+
+Ein Aggregat braucht Diesel. In Berlin müssen Krankenhäuser Notstrom für 24 Stunden vorhalten. Das hat die Senatsverwaltung 2023 bestätigt [3]. Das Bundesamt für Bevölkerungsschutz empfiehlt mehr: mindestens 72 Stunden ohne Nachtanken. Begründung: In drei Tagen lässt sich in der Regel Nachschub organisieren [4].
 
 <figure>
-<img src="/assets/img/platzhalter-grafik.svg" alt="Platzhalter für die Grafik: Zeitstrahl nach dem Stromausfall">
-<figcaption>[Platzhalter für die Bildunterschrift mit Quelle.]</figcaption>
+<img src="/assets/img/stromausfall-zeitstrahl.svg" alt="Zeitstrahl nach einem Stromausfall: Batterie nach 0,5 Sekunden, Aggregat nach 15 Sekunden, Vorrat 24 Stunden Pflicht in Berlin, 72 Stunden Empfehlung des BBK, tatsächliche Ausfälle in Köpenick 2019 und im Berliner Südwesten 2026">
+<figcaption>Was wann passiert. Die Zeitachse ist logarithmisch, jeder Schritt ist das Zehnfache. Quellen: DIN VDE 0100-710 [2], Senatsverwaltung Berlin [3], BBK [4], Ärzteblatt [5], Stromnetz Berlin [9].</figcaption>
 </figure>
 
-<div class="beispiel" markdown="1">
-**Zahlenbeispiel.** [Platzhalter für ein Zahlenbeispiel, geprüft an der Quelle.]
-</div>
+Zwischen 24 und 72 Stunden liegt eine Lücke. Zwei Stromausfälle in Berlin zeigen, wie groß sie ist.
+
+## Köpenick 2019: Wenn das Aggregat selbst ausfällt
+
+Im Februar 2019 beschädigten Bauarbeiten zwei Hochspannungskabel. 32.000 Haushalte in Köpenick waren 31 Stunden ohne Strom. In den DRK Kliniken Köpenick sprang das Aggregat sofort an. Am Abend lief es unrund. Um 21:50 Uhr fiel es ganz aus. Batterien hielten die Intensivstation. Um 23:30 Uhr übernahm ein Aggregat des Technischen Hilfswerks. Dazwischen wurden 23 Intensivpatienten in andere Kliniken verlegt, 22 davon mit Notarzt.
+
+Das Aggregat war das kleinste Problem. Die Fernwärme fiel aus, die Gebäude kühlten bei sechs bis sieben Grad Außentemperatur langsam aus. Der Mobilfunk brach zusammen, Mitarbeiter waren zu Hause nicht erreichbar. Die Wartungsfirma des Aggregats hatte keinen Techniker in Berlin. All das berichtet die Klinik selbst im Deutschen Ärzteblatt [5].
+
+## Berliner Südwesten 2026: Wenn der Ausfall Tage dauert
+
+Am 3. Januar 2026 legte ein Brandanschlag auf eine Kabelbrücke am Teltowkanal den Strom in Nikolassee, Zehlendorf, Wannsee und Lichterfelde lahm. 45.000 Haushalte und 2.200 Betriebe waren betroffen, die letzten rund viereinhalb Tage lang [7, 9]. Berlin rief erstmals eine Großschadenslage aus.
+
+Vier größere Kliniken liefen mit Notstrom, darunter das Helios Klinikum Emil von Behring und das Krankenhaus Waldfriede. Nach etwa einem Tag waren sie wieder am Netz. Eine Räumung war nicht nötig. Die Bundeswehr lieferte Diesel, das THW stellte Aggregate [6]. Auch hier fiel die Fernwärme aus, weil ihre Pumpen Strom brauchen [7]. Für die 74 Pflege- und Seniorenheime im Gebiet lieferte die Bundeswehr Diesel und Personal für Aggregate [6, 8].
+
+Ein dritter Fall passt dazu. An der Charité fiel im Mai 2023 der Strom aus. Das Aggregat war voll funktionsfähig. Ein Kurzschluss an der Sammelschiene verhinderte, dass es einspeisen konnte [3].
+
+## Was die Kette zusammenhält
+
+Drei Fälle, drei verschiedene Schwachstellen: das Aggregat, die Verteilung, die Dauer. In den Berichten über die drei Fälle war der Vorrat nie das erste Problem. Das Krankenhaus ist auf die ersten Sekunden gut vorbereitet. Schwierig wird es bei allem, was hinter dem Aggregat kommt.
+
+Dazu gehören Wärme und Luft. Operationssäle und Intensivstationen brauchen eine funktionierende Lüftung. [Stichpunkt von Martin Kriegel: Hängt die Lüftung von OP und Intensivstation am 15-Sekunden-Netz? Was fällt in der Praxis zuerst weg, Heizung, Kühlung oder Lüftung? Hier liegt die Verbindung zur Arbeit des Hermann-Rietschel-Instituts, die offen benannt werden soll.]
 
 <section class="folgt" markdown="1">
 ## Was folgt daraus?
 
-[Platzhalter. Sachlich und zurückhaltend formulierter Abschnitt für die Politik.]
+Die Regeln für die ersten Sekunden sind gut und bewährt. Die Lücke liegt bei der Dauer. 24 Stunden Vorrat sind Pflicht, 72 Stunden sind Empfehlung. Der Ausfall im Januar 2026 dauerte länger als beides. Es wäre sinnvoll zu prüfen, ob die Empfehlung des BBK für Krankenhäuser zur Regel werden sollte, und ob Wärme und Lüftung in die Notstromkonzepte gehören. Beide Berliner Fälle zeigen, dass die Hilfe von THW und Bundeswehr funktioniert hat. Darauf allein sollte sich ein Krankenhaus aber nicht verlassen müssen.
 </section>
 
 ## Quellen
 
 <ol class="quellen">
-<li>[Platzhalter. Quelle mit Link.]</li>
-<li>[Platzhalter. Quelle mit Link.]</li>
+<li><a href="https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251009_Saidi_Strom.html">Bundesnetzagentur: Versorgungsunterbrechungen Strom 2024 (SAIDI)</a>, Pressemitteilung vom 9. Oktober 2025.</li>
+<li>DIN VDE 0100-710: Errichten von Niederspannungsanlagen, Medizinisch genutzte Bereiche. Kostenpflichtige Norm. Zusammenfassung der Stufen zum Beispiel bei <a href="https://www.wa-stromerzeuger.de/vde-anforderungen/vde-0100-710/">W&amp;A Stromerzeuger</a> (Sekundärquelle).</li>
+<li><a href="https://pardok.parlament-berlin.de/starweb/adis/citat/VT/19/SchrAnfr/S19-15476.pdf">Abgeordnetenhaus Berlin, Drucksache 19/15476: Stromausfall und Notstromversorgung an der Charité Berlin</a>, Antwort der Senatsverwaltung vom 22. Mai 2023.</li>
+<li><a href="https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/PiB/PiB-13-notstromversorgung-unternehmen-behoerden.pdf?__blob=publicationFile&amp;v=12">Bundesamt für Bevölkerungsschutz und Katastrophenhilfe: Notstromversorgung in Unternehmen und Behörden</a>, Praxis im Bevölkerungsschutz Band 13, überarbeitete Fassung 2024.</li>
+<li><a href="https://www.aerzteblatt.de/archiv/210611">Höhne, Lenz: Versorgungssicherung: Was tun bei einem Stromausfall im Krankenhaus</a>, Deutsches Ärzteblatt 44/2019.</li>
+<li><a href="https://www.kma-online.de/aktuelles/klinik-news/detail/nach-anschlag-vier-groessere-kliniken-in-berlin-wieder-am-stromnetz-55043">kma Online: Nach Anschlag: Vier größere Kliniken in Berlin wieder am Stromnetz</a>, 5. Januar 2026.</li>
+<li><a href="https://www.berlin.de/sen/web/presse/pressemitteilungen/2026/pressemitteilung.1629952.php">Senatsverwaltung für Wirtschaft, Energie und Betriebe: Stromausfall im Berliner Südwesten</a>, Pressemitteilung vom 3. Januar 2026.</li>
+<li><a href="https://blogs.fu-berlin.de/disasterresearchblog/archive/581">Katastrophenforschungsstelle der FU Berlin: Der Berliner Stromausfall im Januar 2026</a>, 16. Januar 2026.</li>
+<li><a href="https://www.stromnetz.berlin/en/for-berlin/steglitz-zehlendorf/">Stromnetz Berlin: Steglitz-Zehlendorf, aktueller Stand</a>, Chronik der Störung vom 3. bis 7. Januar 2026.</li>
 </ol>

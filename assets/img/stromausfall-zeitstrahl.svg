@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" role="img" aria-labelledby="t d" font-family="'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<title id="t">Zeitstrahl nach einem Stromausfall im Krankenhaus</title>
+<desc id="d">Logarithmischer Zeitstrahl von einer halben Sekunde bis zu einer Woche. Markiert sind die Batterieversorgung nach 0,5 Sekunden, das Notstromaggregat nach 15 Sekunden, die Pflicht von 24 Stunden in Berlin, die Empfehlung von 72 Stunden des BBK sowie die Ausfälle in Köpenick 2019 mit 31 Stunden und im Berliner Südwesten 2026 mit rund viereinhalb Tagen.</desc>
+<style>
+.ink{fill:#16241F}.muted{fill:#4A5C55}.acc{fill:#F2A33A}.acct{fill:#A3550B}
+.lbl{font-size:14px}.sm{font-size:12px}.b{font-weight:600}
+</style>
+<rect width="860" height="400" fill="#E3EAE7"/>
+
+<!-- Achse: log10(Sekunden), 0,1 s bis 1.000.000 s ≈ 11,6 Tage; x = 60 + (log10(t)+1) * 740/7 -->
+<line x1="60" y1="230" x2="800" y2="230" stroke="#16241F" stroke-width="2"/>
+<g class="muted sm" text-anchor="middle">
+  <line x1="60" y1="224" x2="60" y2="236" stroke="#16241F" stroke-width="2"/><text x="60" y="256">0,1 s</text>
+  <line x1="165.7" y1="224" x2="165.7" y2="236" stroke="#16241F" stroke-width="2"/><text x="165.7" y="256">1 s</text>
+  <line x1="271.4" y1="224" x2="271.4" y2="236" stroke="#16241F" stroke-width="2"/><text x="271.4" y="256">10 s</text>
+  <line x1="353.7" y1="224" x2="353.7" y2="236" stroke="#16241F" stroke-width="2"/><text x="353.7" y="256">1 min</text>
+  <line x1="541.7" y1="224" x2="541.7" y2="236" stroke="#16241F" stroke-width="2"/><text x="541.7" y="256">1 h</text>
+  <line x1="687.6" y1="224" x2="687.6" y2="236" stroke="#16241F" stroke-width="2"/><text x="687.6" y="256">1 Tag</text>
+  <line x1="776.9" y1="224" x2="776.9" y2="236" stroke="#16241F" stroke-width="2"/><text x="776.9" y="256">1 Woche</text>
+</g>
+<text x="430" y="284" class="muted sm" text-anchor="middle">Zeit nach dem Ausfall, logarithmisch (jeder Schritt ist das Zehnfache)</text>
+
+<!-- Regeln und Empfehlungen (oben) -->
+<g class="acc">
+  <!-- 0,5 s: x = 60 + (log10(0.5)+1)*105.71 = 133.9 -->
+  <circle cx="133.9" cy="230" r="7"/>
+  <!-- 15 s: log10(15)=1.176 → x = 290.0 -->
+  <circle cx="290.0" cy="230" r="7"/>
+  <!-- 24 h = 86400 s: log10=4.936 → x = 687.6 -->
+  <circle cx="687.6" cy="230" r="7"/>
+  <!-- 72 h = 259200 s: log10=5.414 → x = 738.0 -->
+  <circle cx="738.0" cy="230" r="7"/>
+</g>
+<g stroke="#A3550B" stroke-width="1.5">
+  <line x1="133.9" y1="222" x2="133.9" y2="150"/>
+  <line x1="290.0" y1="222" x2="290.0" y2="100"/>
+  <line x1="687.6" y1="222" x2="687.6" y2="150"/>
+  <line x1="738.0" y1="222" x2="738.0" y2="100"/>
+</g>
+<g class="acct lbl b">
+  <text x="133.9" y="140" text-anchor="middle">0,5 s</text>
+  <text x="290.0" y="90" text-anchor="middle">15 s</text>
+  <text x="687.6" y="140" text-anchor="middle">24 h</text>
+  <text x="738.0" y="90" text-anchor="middle">72 h</text>
+</g>
+<g class="ink sm">
+  <text x="133.9" y="104" text-anchor="middle" class="b">Batterie übernimmt</text>
+  <text x="133.9" y="120" text-anchor="middle">OP-Leuchten, Beatmung</text>
+  <text x="290.0" y="54" text-anchor="middle" class="b">Aggregat läuft</text>
+  <text x="290.0" y="70" text-anchor="middle">Sicherheitsversorgung</text>
+  <text x="660" y="104" text-anchor="middle" class="b">Vorrat: Pflicht</text>
+  <text x="660" y="120" text-anchor="middle">in Berlin</text>
+  <text x="760" y="54" text-anchor="middle" class="b">Vorrat: Empfehlung</text>
+  <text x="760" y="70" text-anchor="middle">des BBK</text>
+</g>
+
+<!-- Tatsächliche Ausfälle (unten) -->
+<g stroke="#16241F" stroke-width="1.5">
+  <!-- Köpenick 31 h = 111600 s: log10=5.048 → x = 699.4 -->
+  <line x1="699.4" y1="262" x2="699.4" y2="322"/>
+  <!-- Südwesten 4,5 Tage = 388800 s: log10=5.590 → x = 756.6 -->
+  <line x1="756.6" y1="262" x2="756.6" y2="362"/>
+</g>
+<g class="ink">
+  <rect x="694" y="232" width="11" height="11" rx="1"/>
+  <rect x="751" y="232" width="11" height="11" rx="1"/>
+</g>
+<g class="ink sm" text-anchor="end">
+  <text x="692" y="304" class="b">31 Stunden</text>
+  <text x="692" y="320">Köpenick 2019</text>
+  <text x="749" y="344" class="b">4,5 Tage</text>
+  <text x="749" y="360">Berliner Südwesten 2026</text>
+</g>
+
+<!-- Legende -->
+<g class="sm muted">
+  <circle cx="70" cy="330" r="6" class="acc"/><text x="84" y="334" class="ink">Regel oder Empfehlung</text>
+  <rect x="64" y="350" width="11" height="11" rx="1" class="ink"/><text x="84" y="360" class="ink">Tatsächlicher Ausfall in Berlin</text>
+</g>
+</svg>
