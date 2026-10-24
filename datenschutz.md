@@ -30,7 +30,7 @@ GitHub, Inc. hat seinen Sitz in den USA. GitHub ist nach dem EU-US Data Privacy 
 
 Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre E-Mail-Adresse und den Inhalt der Nachricht, um Ihre Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO, bei vertraglichen Anfragen Art. 6 Abs. 1 lit. b DSGVO. Die Daten werden gelöscht, sobald die Anfrage erledigt ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
 
-Die Adresse kontakt@martinkriegel.de ist eine Weiterleitung auf ein Postfach bei iCloud Mail. Anbieter ist Apple Distribution International Limited, Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Apple verarbeitet die E-Mails in meinem Auftrag. Einzelheiten stehen in der <a href="https://www.apple.com/legal/privacy/de-ww/">Datenschutzrichtlinie von Apple</a>. [Zu prüfen: Anbieter, der die Weiterleitung technisch ausführt, voraussichtlich INWX.]
+Das Postfach kontakt@martinkriegel.de wird über iCloud Mail betrieben. Anbieter ist Apple Distribution International Limited, Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Apple speichert und verarbeitet die E-Mails in meinem Auftrag. Apple gibt an, Daten aus dem Europäischen Wirtschaftsraum auf Grundlage von Standardvertragsklauseln auch in die USA zu übermitteln. Einzelheiten stehen in der <a href="https://www.apple.com/legal/privacy/de-ww/">Datenschutzrichtlinie von Apple</a>.
 
 ## Links zu anderen Websites
 

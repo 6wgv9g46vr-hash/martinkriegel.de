@@ -46,17 +46,17 @@ Am 3. Januar 2026 legte ein Brandanschlag auf eine Kabelbrücke am Teltowkanal d
 
 Vier größere Kliniken liefen mit Notstrom, darunter das Helios Klinikum Emil von Behring und das Krankenhaus Waldfriede. Nach etwa einem Tag waren sie wieder am Netz. Eine Räumung war nicht nötig. Die Bundeswehr lieferte Diesel, das THW stellte Aggregate [6]. Auch hier fiel die Fernwärme aus, weil ihre Pumpen Strom brauchen [7]. Für die 74 Pflegeheime im Gebiet lieferte die Bundeswehr Diesel und Personal [6, 8].
 
-Ein dritter Fall passt dazu. An der Charité fiel im Mai 2023 der Strom aus. Das Aggregat war voll funktionsfähig. Ein Kurzschluss an der Sammelschiene verhinderte, dass es einspeisen konnte [3].
+Ein dritter Fall passt dazu. An der Charité fiel im Mai 2023 der Strom aus. Das Aggregat war voll funktionsfähig. Ein Kurzschluss an der Sammelschiene verhinderte jedoch, dass es einspeisen konnte [3].
 
 ## Wie gut sind die Anlagen in Schuss?
 
-Der TÜV prüft Notstromanlagen in Sonderbauten regelmäßig, darunter Krankenhäuser und Hochhäuser. 2025 hatten 35 Prozent der 4.344 geprüften Sicherheitsstromversorgungen wesentliche Mängel. Nur 18 Prozent waren mängelfrei. Ein Jahr zuvor lag der Anteil mit wesentlichen Mängeln bei 30 Prozent. Typische Befunde: Aggregate, die beim Test nicht anspringen, und Kraftstoff, der zu lange gelagert wurde. Dabei sieht die Norm jeden Monat einen Probelauf von einer Stunde unter Last vor [2]. Bei Lüftungsanlagen waren es in derselben Prüfung 44 Prozent [10]. Sie gelten für alle Sonderbauten.
+Der TÜV prüft Notstromanlagen in Sonderbauten regelmäßig, darunter Krankenhäuser und Hochhäuser. 2025 hatten 35 Prozent der 4.344 geprüften Sicherheitsstromversorgungen wesentliche Mängel. Nur 18 Prozent waren mängelfrei. Ein Jahr zuvor lag der Anteil mit wesentlichen Mängeln bei 30 Prozent. Typische Befunde: Aggregate, die beim Test nicht anspringen, und Kraftstoff, der zu lange gelagert wurde. Dabei sieht die Norm jeden Monat einen Probelauf von einer Stunde unter Last vor [2]. Bei Lüftungsanlagen waren es in derselben Prüfung 44 Prozent [10].
 
 ## Was die Kette zusammenhält
 
 Drei Fälle, drei verschiedene Schwachstellen: das Aggregat, die Verteilung, die Dauer. Dazu kommt die Wartung. Der Vorrat war nie das erste Problem. Das Krankenhaus ist auf die ersten Sekunden gut vorbereitet. Schwierig wird es bei allem, was hinter dem Aggregat kommt.
 
-Dazu gehören Wärme und Luft. Die Lüftung von Operationssälen und Intensivstationen hängt am Notstromaggregat. Sobald es läuft, läuft auch sie. An der Batterieversorgung, die ohne Unterbrechung übernimmt, hängt sie nicht. Das ist auch nicht nötig. Die Luft im Raum ist nicht in Sekunden verbraucht. [Zu prüfen: Zuordnung der Lüftung in DIN VDE 0100-710, Klasse 15 s oder länger.]
+Dazu gehören Wärme und Luft. Die Lüftung von Operationssälen und Intensivstationen hängt am Notstromaggregat. Sobald es läuft, läuft auch sie. An der Batterieversorgung, die ohne Unterbrechung übernimmt, hängt sie nicht. Das ist auch nicht nötig, da es sich nicht um lebenserhaltende Versorgungsbestandteile handelt.
 
 Alles andere fällt weg. Heizung, Lüftung und Kühlung laufen nur dort weiter, wo es um Leben geht. Stationen, Büros, Küche und Wäscherei bleiben ohne. Für einige Stunden ist das verkraftbar. Im Winter kühlt das Gebäude aber aus, wie der Fall aus dem Jahr 2019 zeigt [5]. Im Hochsommer heizt es sich auf. Dann stellt sich die Frage, ob Wärme, Kühlung und Lüftung nach einigen Stunden wieder laufen müssten, zumindest in Teilen des Hauses. Darauf gibt es bisher keine verbindliche Antwort. Mit genau dieser Frage beschäftigt sich auch das Hermann-Rietschel-Institut, das ich leite: Welche Räume brauchen welche Luft, und wie viel Energie ist dafür nötig?
 
