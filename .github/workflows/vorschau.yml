@@ -4,7 +4,12 @@ name: Vorschau
 
 on:
   push:
+    branches-ignore:
+      - vorschau
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   vorschau:
@@ -26,10 +31,14 @@ jobs:
           npm install --no-audit --no-fund playwright@1 >/dev/null
           npx playwright install --with-deps chromium >/dev/null
           node .github/screenshots.js
-      - uses: actions/upload-artifact@v4
-        with:
-          name: vorschau
-          path: |
-            _site
-            screenshots
-          retention-days: 7
+      - name: Bildschirmfotos im Zweig "vorschau" ablegen
+        run: |
+          cd screenshots
+          git init -q
+          git config user.name "Vorschau"
+          git config user.email "vorschau@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Bildschirmfotos für ${GITHUB_SHA}"
+          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/vorschau
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
