@@ -1,0 +1,47 @@
+---
+layout: default
+title: Martin Kriegel
+description: Antworten auf Fragen zu Kliniken, Laboren, Reinräumen und Forschungsgebäuden. Jeder Beitrag beantwortet eine Frage. Die Antwort steht im ersten Absatz.
+---
+{% assign aufmacher = site.posts | first %}
+{% assign weitere = site.posts | slice: 1, 4 %}
+<section class="home">
+{% if aufmacher %}
+  <article class="feature">
+    <p class="kicker kicker--accent">{% if aufmacher.themenfeld %}{{ aufmacher.themenfeld }} · {% endif %}{% include datum.html date=aufmacher.date %}</p>
+    <h1 class="feature-title"><a href="{{ aufmacher.url | relative_url }}">{{ aufmacher.title }}</a></h1>
+    {% if aufmacher.antwort %}<p class="lead">{{ aufmacher.antwort }}</p>{% endif %}
+    {% if aufmacher.grafik %}
+    <figure class="feature-figure">
+      <img src="{{ aufmacher.grafik | relative_url }}" alt="{{ aufmacher.grafik_alt | default: '' }}" loading="eager">
+    </figure>
+    {% endif %}
+    <a class="more" href="{{ aufmacher.url | relative_url }}">Weiterlesen</a>
+  </article>
+{% else %}
+  <article class="feature">
+    <h1 class="feature-title">Die ersten Beiträge erscheinen in Kürze.</h1>
+    <p class="lead">{{ site.description }}</p>
+  </article>
+{% endif %}
+
+  <aside class="sidebar">
+  {% if weitere.size > 0 %}
+    <h2 class="sidebar-heading">Weitere Beiträge</h2>
+    <ul class="post-list post-list--compact">
+    {% for post in weitere %}
+      <li>
+        <span class="meta">{% if post.themenfeld %}{{ post.themenfeld }} · {% endif %}{% include datum.html date=post.date %}</span>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      </li>
+    {% endfor %}
+    </ul>
+    {% if site.posts.size > 5 %}<p class="sidebar-more"><a href="{{ '/beitraege/' | relative_url }}">Alle Beiträge</a></p>{% endif %}
+  {% endif %}
+    <section class="about-box">
+      <h2 class="sidebar-heading sidebar-heading--plain">Über den Autor</h2>
+      <p>Martin Kriegel ist Professor an der TU Berlin und leitet das Hermann-Rietschel-Institut. Die Beiträge geben seine persönliche fachliche Einschätzung wieder.</p>
+      <p><a href="{{ '/ueber-mich/' | relative_url }}">Mehr über mich</a></p>
+    </section>
+  </aside>
+</section>

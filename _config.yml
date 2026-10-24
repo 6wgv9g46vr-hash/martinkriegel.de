@@ -1,0 +1,45 @@
+title: Martin Kriegel
+tagline: Gebäude, die nicht ausfallen dürfen.
+subline: Luft und Energie für Kliniken, Labore und Reinräume.
+description: >-
+  Antworten auf Fragen zu Kliniken, Laboren, Reinräumen und Forschungsgebäuden.
+  Jeder Beitrag beantwortet eine Frage. Die Antwort steht im ersten Absatz.
+url: "https://martinkriegel.de"
+baseurl: ""
+lang: de
+author:
+  name: Martin Kriegel
+email: kontakt@martinkriegel.de
+
+timezone: Europe/Berlin
+permalink: /beitraege/:title/
+excerpt_separator: "<!--mehr-->"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - screenshots

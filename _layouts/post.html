@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <p class="kicker">{% if page.themenfeld %}{{ page.themenfeld }} · {% endif %}{% include datum.html date=page.date %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.antwort %}<p class="lead">{{ page.antwort }}</p>{% endif %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <footer class="post-footer">
+    <p>Dieser Beitrag gibt die persönliche fachliche Einschätzung des Autors wieder. Stand: {% include datum.html date=page.date %}.</p>
+    <p><a href="{{ '/beitraege/' | relative_url }}">Alle Beiträge</a></p>
+  </footer>
+</article>

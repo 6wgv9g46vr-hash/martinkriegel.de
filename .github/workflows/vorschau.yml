@@ -1,0 +1,35 @@
+# Baut die Website bei jedem Push und legt Bildschirmfotos als Artefakt ab.
+# Veröffentlicht nichts. GitHub Pages bleibt davon unberührt.
+name: Vorschau
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  vorschau:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Website bauen (mit Entwürfen)
+        run: bundle exec jekyll build --drafts --strict_front_matter
+
+      - name: Bildschirmfotos
+        run: |
+          npm init -y >/dev/null
+          npm install --no-audit --no-fund playwright@1 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          node .github/screenshots.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vorschau
+          path: |
+            _site
+            screenshots
+          retention-days: 7
