@@ -22,7 +22,7 @@ Die Website wird über GitHub Pages bereitgestellt. Anbieter ist GitHub, Inc., 8
 
 Beim Aufruf der Website verarbeitet GitHub technisch notwendige Daten, darunter die IP-Adresse des aufrufenden Geräts, um die Seiten auszuliefern und die Sicherheit des Dienstes zu gewährleisten. GitHub gibt an, die IP-Adresse von Besuchern einer GitHub-Pages-Website zu Sicherheitszwecken zu protokollieren und zu speichern (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">Dokumentation zu GitHub Pages</a>). Einzelheiten stehen in der Datenschutzerklärung von GitHub: <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt in der sicheren und zuverlässigen Bereitstellung dieser Website.
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt in der sicheren und zuverlässigen Bereitstellung dieser Website. Wie lange GitHub diese Protokolldaten speichert, gibt GitHub nicht an. Ich selbst habe keinen Zugriff auf diese Daten.
 
 GitHub, Inc. hat seinen Sitz in den USA. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert. Für zertifizierte Unternehmen hat die Europäische Kommission mit Beschluss vom 10. Juli 2023 ein angemessenes Datenschutzniveau festgestellt. Die Übermittlung in die USA stützt sich auf diesen Angemessenheitsbeschluss (Art. 45 DSGVO).
 
@@ -45,5 +45,3 @@ Sie haben außerdem das Recht, sich bei einer Datenschutzaufsichtsbehörde zu be
 ## Stand
 
 [Datum der Veröffentlichung]
-
-[Entwurf zur rechtlichen Prüfung durch Martin Kriegel.]
