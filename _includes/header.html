@@ -1,7 +1,6 @@
 <header class="site-header{% if page.url == '/' %} site-header--home{% endif %}">
   <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
   <p class="site-tagline">{{ site.tagline }}</p>
-  <p class="site-subline">{{ site.subline }}</p>
 </header>
 <nav class="site-nav" aria-label="Hauptnavigation">
   <a href="{{ '/beitraege/' | relative_url }}"{% if page.url contains '/beitraege/' %} aria-current="page"{% endif %}>Beiträge</a>

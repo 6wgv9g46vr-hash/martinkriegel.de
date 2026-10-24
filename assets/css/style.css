@@ -147,16 +147,11 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 4px 0 0;
   font-family: var(--serif);
   font-style: italic;
-  font-size: clamp(20px, 3vw, 30px);
-  line-height: 1.2;
+  font-size: clamp(19px, 2.6vw, 26px);
+  line-height: 1.25;
   color: var(--accent-text);
 }
-.site-subline {
-  margin: 0;
-  font-size: 16px;
-  color: var(--muted);
-}
-.site-header:not(.site-header--home) .site-tagline { font-size: clamp(18px, 2.4vw, 24px); }
+.site-header:not(.site-header--home) .site-tagline { font-size: clamp(17px, 2.2vw, 21px); }
 
 .site-nav {
   display: flex;

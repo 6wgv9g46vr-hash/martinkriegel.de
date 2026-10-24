@@ -6,7 +6,7 @@ description: Martin Kriegel, Professor an der TU Berlin und Leiter des Hermann-R
 
 Ich bin Martin Kriegel, Professor an der Technischen Universität Berlin. Ich leite das Hermann-Rietschel-Institut. Dort beschäftigen wir uns mit Luft und Energie in Gebäuden.
 
-Mein Schwerpunkt sind Gebäude, die nicht ausfallen dürfen: Krankenhäuser, Labore, Reinräume und Forschungsgebäude. Oft geht es um ganze Liegenschaften. Bei der Energieversorgung dieser Gebäude zählt neben dem Energiesparen vor allem die Versorgungssicherheit.
+Mein Schwerpunkt sind Krankenhäuser, Labore, Reinräume und Forschungsgebäude. Oft geht es um ganze Liegenschaften. Bei der Energieversorgung dieser Gebäude zählt neben dem Energiesparen vor allem die Versorgungssicherheit.
 
 ## Warum dieser Blog?
 
