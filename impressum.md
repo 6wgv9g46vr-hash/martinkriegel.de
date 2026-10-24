@@ -33,4 +33,4 @@ Diese Website enthält Links zu externen Websites Dritter. Auf deren Inhalte hab
 
 Die Inhalte dieser Website unterliegen dem deutschen Urheberrecht. Beiträge dürfen mit Quellenangabe und Link zitiert werden. Eine darüber hinausgehende Nutzung bedarf der Zustimmung des Autors.
 
-[Entwurf zur rechtlichen Prüfung durch Martin Kriegel. Offen: private Anschrift oder Institutsanschrift.]
+[Entwurf zur rechtlichen Prüfung durch Martin Kriegel.]

@@ -56,7 +56,9 @@ Der TÜV prüft Notstromanlagen in Sonderbauten regelmäßig, darunter Krankenh�
 
 Drei Fälle, drei verschiedene Schwachstellen: das Aggregat, die Verteilung, die Dauer. Dazu kommt die Wartung. Der Vorrat war nie das erste Problem. Das Krankenhaus ist auf die ersten Sekunden gut vorbereitet. Schwierig wird es bei allem, was hinter dem Aggregat kommt.
 
-Dazu gehören Wärme und Luft. Operationssäle und Intensivstationen brauchen eine funktionierende Lüftung. [Stichpunkt von Martin Kriegel: Hängt die Lüftung von OP und Intensivstation am 15-Sekunden-Netz? Was fällt in der Praxis zuerst weg, Heizung, Kühlung oder Lüftung? Hier liegt die Verbindung zur Arbeit des Hermann-Rietschel-Instituts, die offen benannt werden soll.]
+Dazu gehören Wärme und Luft. Die Lüftung von Operationssälen und Intensivstationen hängt am Notstromaggregat. Sobald es läuft, läuft auch sie. An der Batterieversorgung, die ohne Unterbrechung übernimmt, hängt sie nicht. Das ist auch nicht nötig. Die Luft im Raum ist nicht in Sekunden verbraucht. [Zu prüfen: Zuordnung der Lüftung in DIN VDE 0100-710, Klasse 15 s oder länger.]
+
+Alles andere fällt weg. Heizung, Lüftung und Kühlung laufen nur dort weiter, wo es um Leben geht. Stationen, Büros, Küche und Wäscherei bleiben ohne. Für einige Stunden ist das verkraftbar. Im Winter kühlt das Gebäude aber aus, wie der Fall aus dem Jahr 2019 zeigt [5]. Im Hochsommer heizt es sich auf. Dann stellt sich die Frage, ob Wärme, Kühlung und Lüftung nach einigen Stunden wieder laufen müssten, zumindest in Teilen des Hauses. Darauf gibt es bisher keine verbindliche Antwort. Mit genau dieser Frage beschäftigt sich auch das Hermann-Rietschel-Institut, das ich leite: Welche Räume brauchen welche Luft, und wie viel Energie ist dafür nötig?
 
 <section class="folgt" markdown="1">
 ## Was folgt daraus?
