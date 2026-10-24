@@ -1,6 +1,6 @@
 ---
 title: "Was passiert im Krankenhaus bei einem Stromausfall?"
-date: 2026-11-02
+date: 2026-10-24
 themenfeld: Versorgungssicherheit
 antwort: "[Platzhalter. Die Antwort im ersten Absatz entsteht nach der Quellenprüfung und nach Stichpunkten von Martin Kriegel.]"
 grafik: /assets/img/platzhalter-grafik.svg
