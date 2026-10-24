@@ -44,4 +44,4 @@ Sie haben außerdem das Recht, sich bei einer Datenschutzaufsichtsbehörde zu be
 
 ## Stand
 
-[Datum der Veröffentlichung]
+24. Oktober 2026
