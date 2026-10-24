@@ -8,8 +8,8 @@ sitemap: false
 **Angaben gemäß § 5 DDG**
 
 Martin Kriegel
-[Straße und Hausnummer]
-[PLZ und Ort]
+Beethovenweg 40
+14532 Kleinmachnow
 
 E-Mail: kontakt@martinkriegel.de
 
