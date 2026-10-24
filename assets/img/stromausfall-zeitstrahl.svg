@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" role="img" aria-labelledby="t d" font-family="'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
 <title id="t">Zeitstrahl nach einem Stromausfall im Krankenhaus</title>
-<desc id="d">Logarithmischer Zeitstrahl von einer halben Sekunde bis zu einer Woche. Markiert sind die Batterieversorgung nach 0,5 Sekunden, das Notstromaggregat nach 15 Sekunden, die Pflicht von 24 Stunden in Berlin, die Empfehlung von 72 Stunden des BBK sowie die Ausfälle in Köpenick 2019 mit 31 Stunden und im Berliner Südwesten 2026 mit rund viereinhalb Tagen.</desc>
+<desc id="d">Logarithmischer Zeitstrahl von einer halben Sekunde bis zu einer Woche. Markiert sind die Batterieversorgung nach 0,5 Sekunden, das Notstromaggregat nach 15 Sekunden, die Mindestdauer von 24 Stunden nach DIN VDE 0100-710, die Empfehlung von 72 Stunden des BBK sowie die Ausfälle in Köpenick 2019 mit 31 Stunden und im Berliner Südwesten 2026 mit rund viereinhalb Tagen.</desc>
 <style>
 .ink{fill:#16241F}.muted{fill:#4A5C55}.acc{fill:#F2A33A}.acct{fill:#A3550B}
 .lbl{font-size:14px}.sm{font-size:12px}.b{font-weight:600}
@@ -48,8 +48,8 @@
   <text x="133.9" y="120" text-anchor="middle">OP-Leuchten, Beatmung</text>
   <text x="290.0" y="54" text-anchor="middle" class="b">Aggregat läuft</text>
   <text x="290.0" y="70" text-anchor="middle">Sicherheitsversorgung</text>
-  <text x="660" y="104" text-anchor="middle" class="b">Vorrat: Pflicht</text>
-  <text x="660" y="120" text-anchor="middle">in Berlin</text>
+  <text x="660" y="104" text-anchor="middle" class="b">Vorrat: Mindestdauer</text>
+  <text x="660" y="120" text-anchor="middle">nach Norm</text>
   <text x="760" y="54" text-anchor="middle" class="b">Vorrat: Empfehlung</text>
   <text x="760" y="70" text-anchor="middle">des BBK</text>
 </g>
