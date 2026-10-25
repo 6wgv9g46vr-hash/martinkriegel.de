@@ -25,9 +25,8 @@ feed:
 # Bestätigungscodes für Suchmaschinen (jekyll-seo-tag erzeugt daraus die Meta-Tags).
 # Google: Search Console → Property „URL-Präfix" https://martinkriegel.de → HTML-Tag.
 # Bing: Webmaster Tools → Meta-Tag. Nur den Wert aus content="..." eintragen.
-# webmaster_verifications:
-#   google: ""
-#   bing: ""
+webmaster_verifications:
+  google: "SHGepkn-W3ZTx3022TX28bfqPQI2jn1BkaeBXXgxHv4"
 
 defaults:
   - scope:
