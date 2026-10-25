@@ -45,3 +45,41 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Meldet die veröffentlichten Seiten an IndexNow (Bing, Yandex, Seznam, Naver u. a.).
+  # Google nimmt an IndexNow nicht teil; dafür ist die Search Console zuständig.
+  # Der Schlüssel steht in der Datei <schluessel>.txt im Hauptverzeichnis.
+  indexnow:
+    needs: veroeffentlichen
+    runs-on: ubuntu-latest
+    env:
+      HOST: martinkriegel.de
+      KEY: fdfcc296a35b0e29ff1640dd0250ca4c
+    steps:
+      - name: Warten, bis die Schlüsseldatei online ist
+        run: |
+          for i in $(seq 1 24); do
+            if [ "$(curl -s "https://$HOST/$KEY.txt")" = "$KEY" ]; then
+              echo "Schlüsseldatei erreichbar."; exit 0
+            fi
+            echo "Noch nicht erreichbar, Versuch $i von 24."; sleep 10
+          done
+          echo "Schlüsseldatei nach 4 Minuten nicht erreichbar."; exit 1
+      - name: Seiten aus der Sitemap an IndexNow melden
+        run: |
+          curl -s "https://$HOST/sitemap.xml" \
+            | grep -o '<loc>[^<]*</loc>' | sed 's/<\/\?loc>//g' | sort -u > urls.txt
+          echo "Gemeldete Seiten:"; cat urls.txt
+          python3 - <<'EOF' > body.json
+          import json, os
+          urls = [u.strip() for u in open("urls.txt") if u.strip()]
+          host, key = os.environ["HOST"], os.environ["KEY"]
+          print(json.dumps({"host": host, "key": key,
+                            "keyLocation": f"https://{host}/{key}.txt",
+                            "urlList": urls}))
+          EOF
+          code=$(curl -s -o antwort.txt -w '%{http_code}' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data @body.json https://api.indexnow.org/indexnow)
+          echo "Antwort von IndexNow: HTTP $code"; cat antwort.txt; echo
+          case "$code" in 200|202) exit 0 ;; *) exit 1 ;; esac

@@ -50,6 +50,13 @@ bundle install
 bundle exec jekyll serve --drafts
 ```
 
+## Auffindbarkeit
+
+- `sitemap.xml`, `feed.xml` und die Meta-Tags erzeugen die Plugins jekyll-sitemap, jekyll-feed und jekyll-seo-tag.
+- `robots.txt` verweist auf die Sitemap.
+- IndexNow: Die Datei `<schluessel>.txt` im Hauptverzeichnis ist der Schlüssel. Der Workflow „Veröffentlichen" meldet nach jedem Lauf alle Seiten der Sitemap an api.indexnow.org (Bing und weitere Suchmaschinen). Google nimmt daran nicht teil.
+- Google Search Console und Bing Webmaster Tools: Bestätigungscodes gehören in `_config.yml` unter `webmaster_verifications`.
+
 ## Grundsätze
 
 Keine Cookies, kein Tracking, keine Inhalte von fremden Servern. Nichts geht ohne Freigabe von Martin Kriegel online.
