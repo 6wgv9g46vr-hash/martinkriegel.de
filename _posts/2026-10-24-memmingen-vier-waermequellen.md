@@ -6,6 +6,10 @@ antwort: "Weil ein Krankenhaus nie kalt werden darf. Wer die Wärme auf mehrere 
 grafik: /assets/img/memmingen-vier-waermequellen.svg
 grafik_alt: "Vier Wärmequellen für den Neubau des Klinikums Memmingen: Grundwasser-Wärmepumpe 1.550 Kilowatt, Fernwärme 1.550 Kilowatt, Wärmerückgewinnung 800 Kilowatt, Schmutzwasser-Wärmepumpe 500 Kilowatt. Fällt eine der beiden großen Quellen aus, bleiben 2.850 Kilowatt, das sind 65 Prozent."
 description: "Der Neubau des Klinikums Memmingen heizt mit Grundwasser, Fernwärme, Wärmerückgewinnung und Abwasser. Warum mehrere Wärmequellen ein Krankenhaus robust machen."
+image:
+  path: /assets/img/vorschau/memmingen-vier-waermequellen.png
+  width: 1200
+  height: 630
 ---
 
 *Anlass: Richtfest des Klinikums Memmingen am 14. Oktober 2026 [1].*

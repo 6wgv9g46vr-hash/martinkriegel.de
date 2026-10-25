@@ -6,6 +6,7 @@ layout: default
     <p class="kicker">{% if page.themenfeld %}{{ page.themenfeld }} · {% endif %}{% include datum.html date=page.date %}</p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.antwort %}<p class="lead">{{ page.antwort }}</p>{% endif %}
+    <p class="byline">Von <a href="{{ '/ueber-mich/' | relative_url }}">Martin Kriegel</a>, Professor an der TU Berlin</p>
   </header>
   <div class="prose">
     {{ content }}

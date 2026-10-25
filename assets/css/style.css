@@ -310,6 +310,8 @@ img { max-width: 100%; height: auto; display: block; }
   border-bottom: 1px solid var(--rule);
 }
 .post-header .post-title { margin: 0; }
+.byline { margin: 0; font-size: 15px; color: var(--muted); }
+.byline a { font-weight: 600; color: var(--ink); border-bottom: 2px solid var(--accent); }
 .intro { margin: 0 0 8px; font-size: 18px; color: var(--muted); }
 
 .prose { color: var(--text); font-size: 18px; line-height: 1.65; }

@@ -8,6 +8,7 @@ baseurl: ""
 lang: de
 author:
   name: Martin Kriegel
+  url: https://martinkriegel.de/ueber-mich/
 email: kontakt@martinkriegel.de
 
 timezone: Europe/Berlin
@@ -38,6 +39,11 @@ defaults:
       path: ""
     values:
       layout: page
+      # Vorschaubild beim Teilen (Beiträge setzen ein eigenes im Front Matter)
+      image:
+        path: /assets/img/vorschau/standard.png
+        width: 1200
+        height: 630
 
 exclude:
   - Gemfile

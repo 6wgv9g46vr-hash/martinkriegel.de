@@ -26,8 +26,14 @@ antwort: "Antwort in ein bis drei Sätzen. Erscheint als erster Absatz und als V
 grafik: /assets/img/dateiname.svg
 grafik_alt: "Beschreibung der Grafik"
 description: "Kurzbeschreibung für Suchmaschinen."
+image:
+  path: /assets/img/vorschau/titel.png
+  width: 1200
+  height: 630
 ---
 ```
+
+Das Vorschaubild (für LinkedIn, Messenger, Suchmaschinen) erzeugt `python3 .github/vorschaubilder.py` aus Titel, Themenfeld, Datum und Grafik aller Beiträge in `_posts`. Es liegt dann unter `assets/img/vorschau/<titel>.png`. Seiten ohne eigenes Bild nutzen `standard.png` (festgelegt in `_config.yml`).
 
 Abschnitt für die Politik und Quellenliste:
 

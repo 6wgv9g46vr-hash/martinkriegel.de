@@ -6,6 +6,10 @@ antwort: "Das Licht flackert, dann springt das Notstromaggregat an. Operationss�
 grafik: /assets/img/stromausfall-zeitstrahl.svg
 grafik_alt: "Zeitstrahl nach einem Stromausfall: Batterie nach 0,5 Sekunden, Aggregat nach 15 Sekunden, Vorrat mindestens 24 Stunden nach Norm, 72 Stunden Empfehlung des BBK, tatsächliche Ausfälle in Köpenick 2019 und im Berliner Südwesten 2026"
 description: "Notstrom im Krankenhaus: Was in den ersten Sekunden passiert, wie lange der Vorrat reichen muss und was zwei Stromausfälle in Berlin gezeigt haben."
+image:
+  path: /assets/img/vorschau/stromausfall-im-krankenhaus.png
+  width: 1200
+  height: 630
 ---
 
 ## Wie oft fällt der Strom überhaupt aus?
