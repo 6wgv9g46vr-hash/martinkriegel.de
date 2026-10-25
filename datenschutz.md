@@ -7,9 +7,9 @@ sitemap: false
 
 ## Verantwortlicher
 
-Martin Kriegel
-Beethovenweg 40
-14532 Kleinmachnow
+Martin Kriegel<br>
+Beethovenweg 40<br>
+14532 Kleinmachnow<br>
 E-Mail: kontakt@martinkriegel.de
 
 ## Grundsatz
@@ -44,4 +44,4 @@ Sie haben außerdem das Recht, sich bei einer Datenschutzaufsichtsbehörde zu be
 
 ## Stand
 
-24. Oktober 2026
+Diese Erklärung gilt seit dem 24. Oktober 2026.
