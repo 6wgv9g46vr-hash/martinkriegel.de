@@ -6,11 +6,11 @@ Persönlicher Fachblog von Martin Kriegel. Statische Website mit Jekyll, gehoste
 
 - `_posts/` veröffentlichte Beiträge (Markdown, Dateiname `JJJJ-MM-TT-titel.md`)
 - `_drafts/` Entwürfe, erscheinen nur in der lokalen Vorschau mit `--drafts`
-- `_layouts/`, `_includes/` Seitengerüst
+- `_layouts/`, `_includes/` Seitengerüst. `start.html` baut die Startseite, `uebersicht.html` die Beitragsübersicht; beide holen die Beiträge automatisch aus `_posts/`
 - `assets/css/style.css` Gestaltung
 - `assets/fonts/` selbst gehostete Schriften (Newsreader, Public Sans; SIL Open Font License)
 - `assets/img/` Grafiken
-- `index.html`, `beitraege/`, `ueber-mich.md`, `kontakt.md`, `impressum.md`, `datenschutz.md`, `404.html`
+- `index.md` (Startseite, Text im Kasten „Über den Autor"), `beitraege/index.md` (Einleitung der Übersicht), `ueber-mich.md`, `kontakt.md`, `impressum.md`, `datenschutz.md`, `404.md`. Alle Texte der Website liegen in Markdown-Dateien; Gestaltung und Technik in `_layouts/`, `_includes/`, `assets/css/`
 - `CNAME` Domain für GitHub Pages
 
 ## Beitrag anlegen

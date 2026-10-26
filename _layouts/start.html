@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Martin Kriegel
-description: Antworten auf Fragen zu Kliniken, Laboren, Reinräumen und Forschungsgebäuden. Jeder Beitrag beantwortet eine Frage. Die Antwort steht im ersten Absatz.
 ---
+{%- comment -%}
+Startseite. Aufmacher und Liste entstehen automatisch aus den Beiträgen.
+Der Text im Kasten „Über den Autor" steht in index.md.
+{%- endcomment -%}
 {% assign aufmacher = site.posts | first %}
 {% assign weitere = site.posts | slice: 1, 4 %}
 <section class="home">
@@ -39,9 +41,8 @@ description: Antworten auf Fragen zu Kliniken, Laboren, Reinräumen und Forschun
     {% if site.posts.size > 5 %}<p class="sidebar-more"><a href="{{ '/beitraege/' | relative_url }}">Alle Beiträge</a></p>{% endif %}
   {% endif %}
     <section class="about-box">
-      <h2 class="sidebar-heading sidebar-heading--plain">Über den Autor</h2>
-      <p>Martin Kriegel ist Professor an der TU Berlin und leitet das Hermann-Rietschel-Institut. Die Beiträge geben seine persönliche fachliche Einschätzung wieder.</p>
-      <p><a href="{{ '/ueber-mich/' | relative_url }}">Mehr über mich</a></p>
+      <h2 class="sidebar-heading sidebar-heading--plain">{{ page.kasten_titel }}</h2>
+      {{ content }}
     </section>
   </aside>
 </section>

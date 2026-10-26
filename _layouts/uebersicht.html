@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Beiträge
-description: Alle Beiträge. Jeder Beitrag beantwortet eine Frage. Die Antwort steht im ersten Absatz.
 ---
+{%- comment -%}
+Beitragsübersicht. Die Liste entsteht automatisch aus den Beiträgen.
+Der Einleitungstext steht in beitraege/index.md.
+{%- endcomment -%}
 <section class="page">
-  <h1 class="page-title">Beiträge</h1>
-  <p class="intro">Jeder Beitrag beantwortet eine Frage. Die Antwort steht im ersten Absatz.</p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  <div class="intro">{{ content }}</div>
 {% if site.posts.size > 0 %}
   <ul class="post-list">
   {% for post in site.posts %}
