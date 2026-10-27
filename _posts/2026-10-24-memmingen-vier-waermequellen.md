@@ -50,7 +50,7 @@ Krankenhäuser gehören zur kritischen Infrastruktur. Als im Winter 2022/23 die 
 
 ## Meine Einschätzung
 
-Am Hermann-Rietschel-Institut der TU Berlin beschäftigen wir uns mit der Luft- und Energieversorgung von Kliniken, Laboren und Reinräumen. Dabei fällt auf: Energiekonzepte werden meist nach Effizienz und CO₂ bewertet. Das ist richtig und wichtig. Ein drittes Maß darf nicht fehlen. Es lautet: Was passiert, wenn eine Quelle ausfällt? Memmingen zeigt, dass Energiewende und Robustheit zusammenpassen. Eine Wärmepumpe im Grundwasser, eine im Abwasser, dazu Fernwärme. Das sind drei Wege, die unabhängig voneinander funktionieren.
+Am [Hermann-Rietschel-Institut](https://hermann-rietschel-institut.de/) der TU Berlin beschäftigen wir uns mit der Luft- und Energieversorgung von Kliniken, Laboren und Reinräumen. Dabei fällt auf: Energiekonzepte werden meist nach Effizienz und CO₂ bewertet. Das ist richtig und wichtig. Ein drittes Maß darf nicht fehlen. Es lautet: Was passiert, wenn eine Quelle ausfällt? Memmingen zeigt, dass Energiewende und Robustheit zusammenpassen. Eine Wärmepumpe im Grundwasser, eine im Abwasser, dazu Fernwärme. Das sind drei Wege, die unabhängig voneinander funktionieren.
 
 Eine wichtige Planungsgrundlage dabei ist, wie lange das Haus an einem kalten Wintertag mit jeder Quelle allein auskommt.
 

@@ -19,7 +19,7 @@ Martin Kriegel, Anschrift wie oben.
 
 **Hinweis**
 
-Diese Website ist ein persönlicher Blog von Martin Kriegel. Sie ist kein Angebot der Technischen Universität Berlin und kein Angebot des Hermann-Rietschel-Instituts. Die Beiträge geben die persönliche fachliche Einschätzung des Autors wieder.
+Diese Website ist ein persönlicher Blog von Martin Kriegel. Sie ist kein Angebot der Technischen Universität Berlin und kein Angebot des [Hermann-Rietschel-Instituts](https://hermann-rietschel-institut.de/). Die Beiträge geben die persönliche fachliche Einschätzung des Autors wieder.
 
 **Haftung für Inhalte**
 
