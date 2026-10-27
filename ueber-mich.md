@@ -4,7 +4,7 @@ permalink: /ueber-mich/
 description: Martin Kriegel, Professor an der TU Berlin und Leiter des Hermann-Rietschel-Instituts, über diesen Blog.
 ---
 
-Ich bin Martin Kriegel, seit 2011 Professor an der Technischen Universität Berlin und Leiter des Hermann-Rietschel-Instituts. Dort beschäftigen wir uns mit Energie, Komfort und Gesundheit in Gebäuden.
+Ich bin Martin Kriegel, seit 2011 Professor an der Technischen Universität Berlin und Leiter des [Hermann-Rietschel-Instituts](https://hermann-rietschel-institut.de/). Dort beschäftigen wir uns mit Energie, Komfort und Gesundheit in Gebäuden.
 
 Mein persönlicher Schwerpunkt sind Krankenhäuser, Labore, Reinräume und Forschungsgebäude. Oft geht es um ganze Liegenschaften. Bei der Energieversorgung dieser Gebäude zählt neben dem Energiesparen vor allem die Versorgungssicherheit.
 
